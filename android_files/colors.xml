@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Plum">#DDA0DD</color>
+    <color name="Gray">#778899</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="SpringGreen">#00FA9A</color>
+    <color name="crimson">#DC143C</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="lightgray">#DCDCDC</color>
+    <color name="seagreen">#20B2AA</color>
+    <color name="Black">#000000</color>
+</resources>

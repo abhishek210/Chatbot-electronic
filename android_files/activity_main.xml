@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/aliceavatar"
+        android:layout_width="199dp"
+        android:layout_height="208dp"
+        android:src="@drawable/alice2"
+        app:layout_constraintBottom_toTopOf="@+id/alicetext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <EditText
+        android:id="@+id/etfirstname"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:background="@drawable/roundedtext"
+        android:drawableLeft="@drawable/usable2"
+        android:ems="10"
+        android:fontFamily="@string/app_name"
+        android:hint="Enter your first name"
+        android:inputType="textPersonName"
+        android:drawablePadding="10dp"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etsecondname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alicetext" />
+
+    <EditText
+        android:id="@+id/etsecondname"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:background="@drawable/roundedtext"
+        android:drawableLeft="@drawable/usable2"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@string/app_name"
+        android:hint="Enter your last name"
+        android:inputType="textPersonName"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/askdoubtbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etfirstname" />
+
+    <Button
+        android:id="@+id/askdoubtbtn"
+        android:layout_width="284dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@string/app_name"
+        android:text="Ask Doubt"
+        android:textColor="@color/White"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etsecondname"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <TextView
+        android:id="@+id/alicetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Hi, I'm Ms. TES, please login first"
+        android:textColor="@color/Black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/etfirstname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aliceavatar" />
+
+</android.support.constraint.ConstraintLayout>
