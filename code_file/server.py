@@ -9,7 +9,7 @@ from p003 import *
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-HOST = "192.168.52.41"
+HOST = "ip-address"
 PORT = 8888
 print(HOST)
 print(PORT)
