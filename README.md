@@ -1,4 +1,4 @@
-# Chatbot-electronic
+# Chatbot
 server.py 
 This file contains the code for connection between server and client
 and it is a local server and we are sending and receiving data through this.
