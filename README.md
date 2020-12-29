@@ -1,4 +1,5 @@
 Chatbot
+
 There are a list of projects and the description of each of the project is provided, the goal of the Chatbot is to provide an easy access of the project details to the user. There is a button functionality where the user chooses the appropriate option which limits the project choices based on various parameters such as project type and functionality which helps eases out the searching process. There is an added functionality of searching the product via question answering, the user writes details of the projects and the chatbot interprets the projects from the text and outputs the most desirable project.
 
 This project has been contributed by the following :-
@@ -8,10 +9,7 @@ Preyansh Rastogi, Shivam Shanker, Abhishek Rajgaria and Anuj Verma.
 Application Code
 The following shows the two screens of the android application.
 
-Chatbot
-
 Images
-
 It contains all the images that were used in the android application.
 
 MainActivity.java
