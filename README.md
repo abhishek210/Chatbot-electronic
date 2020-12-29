@@ -6,9 +6,6 @@ This project has been contributed by the following :-
 
 Preyansh Rastogi, Shivam Shanker, Abhishek Rajgaria and Anuj Verma.
 
-Application Code
-The following shows the two screens of the android application.
-
 Images
 It contains all the images that were used in the android application.
 
