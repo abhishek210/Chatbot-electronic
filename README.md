@@ -4,7 +4,7 @@ There are a list of projects and the description of each of the project is provi
 
 This project has been contributed by the following :-
 
-Preyansh Rastogi, Shivam Shanker, Abhishek Rajgaria and Anuj Verma.
+Abhishek Rajgaria, Preyansh Rastogi, Shivam Shanker and Anuj Verma.
 
 Images
 It contains all the images that were used in the android application.
